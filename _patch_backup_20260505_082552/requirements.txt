@@ -1,0 +1,5 @@
+PyQt5
+PyInstaller
+PyYAML
+websockets>=10.0
+

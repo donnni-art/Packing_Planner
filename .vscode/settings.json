@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python -c \"\nimport sys; sys\\.path\\.insert\\(0, '\\.'\\)\nfrom app\\.core\\.calculation_engine import calculate_single_lot_plan\nplan = calculate_single_lot_plan\\('LOT1', 1700, 8000, 6400, 3100, 1500, 3, 1, 1, 0, 0, '', None, None, 8000, False\\)\nprint\\('len:', len\\(plan\\)\\)\nprint\\('plan:'\\)\nfor i,row in enumerate\\(plan\\): print\\(f'  \\[\\{i\\}\\]', row\\)\n\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

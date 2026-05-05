@@ -1,0 +1,18 @@
+output:
+  folder: C:\Users\Sitthipong.R/Desktop/Auto reel packing visualization VLO-127S
+  product_code: VLO-127S
+packing:
+  max_per_box: 6400
+  max_per_reel: 3100
+  min_per_reel: 1500
+  reels_per_box: 3
+  replan_trigger_pct: 0.7
+  replan_warn_pct: 0.85
+reels:
+  max_reels: 5
+ui:
+  fullscreen: true
+  language: th
+  mode: 3
+  scale: 0.0
+  theme: dark

@@ -1,0 +1,7 @@
+PyQt5
+PyInstaller
+PyYAML
+websockets>=10.0
+# Optional — enables QR code in NetworkInfoDialog (LAN URL dialog):
+# qrcode[pil]
+# Pillow

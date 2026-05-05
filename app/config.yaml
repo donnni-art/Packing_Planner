@@ -1,0 +1,23 @@
+lan:
+  http_port: 8000        # Web UI + REST API (ต้องเปิด firewall inbound TCP)
+  ws_port: 8001          # WebSocket realtime sync (ต้องเปิด firewall inbound TCP)
+  legacy_port: 5050      # Legacy redirect server (ไม่ต้องเปิด firewall ใช้เฉพาะ localhost)
+
+output:
+  folder: C:\Users\Sitthipong.R/Desktop/Auto reel packing visualization VLO-127S
+  product_code: VLO-127S
+packing:
+  max_per_box: 6400
+  max_per_reel: 3100
+  min_per_reel: 1500
+  reels_per_box: 3
+  replan_trigger_pct: 0.7
+  replan_warn_pct: 0.85
+reels:
+  max_reels: 5
+ui:
+  fullscreen: true
+  language: th
+  mode: 3
+  scale: 0.0
+  theme: dark

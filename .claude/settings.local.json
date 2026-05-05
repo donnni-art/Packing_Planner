@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import fastapi; import uvicorn; import websockets; print\\('OK — fastapi:', fastapi.__version__, 'uvicorn:', uvicorn.__version__\\)\")",
+      "Bash(pip3 install *)",
+      "Bash(.venv-1/bin/python -c \"import PyQt5; print\\('PyQt5 OK'\\)\")",
+      "Bash(.venv-1/bin/python -c \"import websockets; print\\('websockets OK'\\)\")",
+      "Bash(.venv-1/bin/python -c \"import yaml; print\\('PyYAML OK'\\)\")",
+      "Bash(python3 -c \"import websockets; print\\('websockets:', websockets.__version__\\)\")",
+      "Bash(python3 -c \"import PyQt5; print\\('PyQt5 OK'\\)\")",
+      "Bash(python3 -c \"import yaml; print\\('yaml OK'\\)\")",
+      "Bash(python3 -m PyInstaller --version)",
+      "Bash(pip3 show *)",
+      "Bash(python3 -c \"import PyInstaller; print\\('PyInstaller', PyInstaller.__version__\\)\")"
+    ]
+  }
+}
